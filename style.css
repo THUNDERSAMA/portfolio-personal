@@ -39,6 +39,13 @@ body
    
    padding-bottom:5px ;
 }
+.imgbtf{
+    position: absolute;
+    margin-top: -2%;
+    transform: rotate(90deg);
+    margin-left: -14%;
+    width: 45%;
+}
 .dcv{
     height: 40px;
     width:80px;
@@ -199,6 +206,8 @@ body
     font-family: 'Exo 2';
     font-size: 1.2em;
     color: antiquewhite;
+    z-index: 1;
+    backdrop-filter: blur(6px);
 }
 .aboutcs1{
     font-family: 'Source Code Pro';
